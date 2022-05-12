@@ -21,7 +21,7 @@ spec:
             - containerPort: 4000
           env:
             - name: NAME
-              value: "MINIKUBE!"
+              value: "MINIKUBE"
   replicas: 3
   selector:
     matchLabels:
