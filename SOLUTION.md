@@ -14,7 +14,7 @@ Steps Followed:
 10. Started minikube using `minikube start`
 11. Ran `eval $(minikube -p minikube docker-env)`
 12. Build docker image using `docker build -t sample-app .`
-13. Created Deployment YAML configuration and created deployment.
+13. Created Deployment YAML config and created deployment.
 14. Created Service YAML config and used kubectl to create the service.
 15. Output of `curl $(minikube ip):30080` 
 Hello MINIKUBE! 
