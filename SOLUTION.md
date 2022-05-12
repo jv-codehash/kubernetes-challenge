@@ -8,7 +8,7 @@ Steps Followed:
 4. Ran Yum Update to update the repository list
 5. Installed Docker engine & Docker CLI
 6. Added user "Ubuntu" to docker group using `sudo usermod -aG docker $USER`
-7. Activated changes to the group without without using `newgrp docker`
+7. Activated changes to the group without the reboot using `newgrp docker`
 8. Set docker default driver using `minikube config set driver docker` command.
 9. Installed kubectl
 10. Started minikube using `minikube start`
